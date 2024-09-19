@@ -12,3 +12,8 @@ REDIS_URL=redis://redis:6379/0
 # Flower
 CELERY_FLOWER_USER=debug
 CELERY_FLOWER_PASSWORD=debug
+
+# THE MOVIE DB
+# ------------------------------------------------------------------------------
+TMDB_BASE_URL=https://api.themoviedb.org/3
+TMDB_AUTH_TOKEN=eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyZGZjMDc5ZmUxOGI2MmYyNzg1NmMxY2IyMGQ5M2UwYSIsIm5iZiI6MTcyNDE4OTM4OC41ODE4ODEsInN1YiI6IjY2YzUwOTdlZmIxMDhkOWVmZGFkYzRjMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ycKeb4QPxHD3QL7ZYo8cU2OZRCSgz_34H_r8LjbjgHE

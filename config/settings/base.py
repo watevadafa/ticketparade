@@ -82,10 +82,12 @@ THIRD_PARTY_APPS = [
     "rest_framework.authtoken",
     "corsheaders",
     "drf_spectacular",
+    "django_filters",
 ]
 
 LOCAL_APPS = [
     "ticketparade.users",
+    "ticketparade.core",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
@@ -343,3 +345,5 @@ SPECTACULAR_SETTINGS = {
 }
 # Your stuff...
 # ------------------------------------------------------------------------------
+TMDB_BEARER_TOKEN = env("TMDB_AUTH_TOKEN")
+TMDB_BASE_URL = env("TMDB_BASE_URL", default="https://api.themoviedb.org/3")
